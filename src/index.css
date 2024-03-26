@@ -1,0 +1,33 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+#logo-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Add your own custom styles here */
+.book {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.bookCard {
+  width: 360px;
+  height: 450px;
+  margin: 10px;
+  background-color: rgb(186, 189, 192);
+  border: solid;
+  position: relative;
+  transition: transform 0.3s; 
+}
+
+.bookImg {
+  width: 250px;
+  height: 300px;
+ }
